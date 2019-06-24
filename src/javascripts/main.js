@@ -1,3 +1,8 @@
 import '../styles/main.scss';
+import myProjects from './components/projects/projects';
 
-console.error('hi');
+const init = () => {
+  myProjects.printProjects();
+};
+
+init();
