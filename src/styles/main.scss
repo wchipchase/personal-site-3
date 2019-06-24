@@ -1,0 +1,153 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+    background-color: darkgray;
+    padding: 0 20px;
+}
+
+.container {
+	max-width: 1200px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.site-name {
+    background-color: #03A9F4;
+    padding:0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-name h1 {
+    color:white;
+}
+
+.site-name {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    flex-direction: row;
+}
+
+nav a {
+    color: white; 
+    text-decoration: none;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+nav a{
+    margin-bottom: 0rem;
+}
+
+.aboutMe {
+    font: 2em;
+    padding: 1.2em;
+    color: white;
+    background-color: #03A9F4;
+    min-width: 100%;
+    text-align: center;
+}
+
+.fullPage {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    max-width: auto;
+    margin-bottom: 1em;
+}
+
+/* .row {
+    display: flex;
+    flex: wrap row;
+    border: 3px solid red;
+} */
+
+.card {
+    margin-bottom: 2rem;
+	background-color: #ffffff;
+	box-shadow: 2px 6px 6px 0px;
+	border: 1px solid rgb(15, 14, 12);
+    padding: 1rem;
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+}
+.technologiesUsed {
+    font-weight: italic;
+}
+.nav {
+    display: flex;
+    border: 1px solid lightblue;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.screenshot {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: fill;
+    width: fill;
+}
+/* #nametitle {
+    text-align: center;
+    background-color: white;
+    max-width: 400px;
+    box-shadow: 2px 6px 6px 0px;
+} */
+
+.available {
+}
+
+#technologiesPage {
+    background-color:white;
+}
+
+.page-footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 2em;
+    min-height: auto;
+}
+
+.email {
+    padding: 2rem;
+}
+
+.linkedin {
+    padding: 2rem;
+}
+
+.github {
+    padding: 2rem;
+}
+
+.facebook {
+    padding: 2rem;
+}
+
+img {
+    width: 275px;
+}
