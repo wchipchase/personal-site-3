@@ -1,4 +1,4 @@
-[
+{"projects":[
   {
   "id": "0001",
   "title": "Shotz", 
@@ -32,3 +32,4 @@
   "githubUrl": "https://github.com/wchipchase/doggie-day-care"
 }
 ]
+}

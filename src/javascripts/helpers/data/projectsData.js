@@ -12,7 +12,8 @@ const getProjects = () => new Promise((resolve, reject) => {
         projectResults[projectId].id = projectId;
         projectsArray.push(projectResults[projectId]);
       });
-      resolve(projectsArray[0]);
+      console.error('I am here', projectsArray[0]);
+      resolve(projectsArray);
     })
     .catch(err => reject(err));
 });
