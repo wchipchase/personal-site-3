@@ -3,7 +3,7 @@
   "id": "0001",
   "title": "Shotz", 
   "screenshot": "https://raw.githubusercontent.com/wchipchase/shotz/master/screenshots/shotz1.JPG", 
- " description": "This is a project regarding movie locations and the times of shooting", 
+  "description": "This is a project regarding movie locations and the times of shooting", 
   "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Modules, Version Control with Github",
   "available": true,
   "url": "https://shotz-8c456.firebaseapp.com", 
